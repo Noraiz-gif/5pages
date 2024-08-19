@@ -1,0 +1,98 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color:silver;
+    margin: 0;
+    padding: 0;
+    color: rgb(216, 90, 1);
+    font-size: 16px;
+}
+
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
+
+header{
+    background-color: rgba(83, 98, 180, 0.5);
+    color: brown;
+    padding:1px;
+    text-align: center;
+    font-size: 22px;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+section{
+    background-color:rgba(216, 200, 178, 0.425);
+}
+
+footer{
+    background-color: rgba(83, 98, 180, 0.5);
+    color: rgb(228, 11, 11);
+    padding: 1rem;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+/* Heading 2 text, font, color design */
+h2{
+    text-align: center;
+    font-style: italic;
+    text-decoration: underline;
+    color: rgb(9, 165, 9);
+    font-family:cursive;
+    font-size: 30px;
+}
+
+/* Headings 3 text, font, color styles */
+h3{
+    text-decoration: underline;
+    font-style: oblique;
+    font-family:sans-serif;
+    color: rgb(25, 11, 223);
+    font-size: 23px;
+}
+
+/* Giving the heading 3 class .inline for sperate design */
+.line{
+    text-align: center;
+    font-size: 23px;
+    color: rgb(28, 28, 97);
+}
+
+/* Images width & height by using hover tag */
+img:hover{
+    width: 550px;
+    height: 400px;
+}
+
+/* Giving paragraph tag span for font weight */
+span{
+    font-weight: 600;
+}
+
+/* link design for go to home */
+.link{
+    text-align: right;
+    font-weight:bolder;
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 20px;
+    background-color: rgba(0, 255, 255, 0.418);
+}
+
+/* Tabs buttons */
+.bitt,a{
+
+    text-decoration: none;
+    text-align: center;
+    color: brown;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 20px;
+    margin: 15px;
+}

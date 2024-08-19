@@ -1,0 +1,80 @@
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+body{
+    margin: 0px;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    background-color:gainsboro;
+    text-align: justify;
+    color:brown;
+}
+
+header{
+    background-color:rgba(83, 98, 180, 0.5);
+    color: brown;
+    padding: 15px;
+}
+
+h1{
+    text-align: center;
+    font-size: 37px;
+    font-style: italic;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+/* Tabs,List margin & display */
+nav,ul,li{
+    list-style-type:none;
+    margin-right: 20px;
+    display: inline;
+}
+
+/* Giving the List, Tabs & ancher tag designs */
+nav,ul,li,a{
+    color: rgb(173, 46, 46);
+    text-decoration: dashed;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+section{
+    background-color:rgba(216, 181, 133, 0.699);
+    flex-basis: 47%;
+}
+
+/* Giving p tag span for separate design */
+span{
+    font-style: italic;
+    color:darkred;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+footer{
+    background-color:rgba(83, 98, 180, 0.5);
+    color: rgb(228, 11, 11);
+    padding: 10px;
+    font-size: 32px;
+    font-weight: 700;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style:oblique;
+}
+
+/* Paragraphs font weight */
+p{
+    font-weight: 400;
+}
+
+img:hover{
+    width: 700px;
+}

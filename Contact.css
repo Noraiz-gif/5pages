@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:rgba(189, 130, 130, 0.774);
+    color:black;
+    font-weight: 600;
+}
+
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
+
+header{
+    background-color:rgba(83, 98, 180, 0.5);
+    color: brown;
+    padding: 9px;
+}
+
+/* list, nav style */
+nav,ul,li{
+    list-style-type:none;
+    margin-right: 20px;
+    display: inline;
+}
+
+/* list, nav & ancher tag style */
+nav,ul,li,a{
+    color: rgb(173, 46, 46);
+    text-decoration: dashed;
+    font-weight: bold;
+    font-style: oblique;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+/* heading text fonts and text design */
+h1{
+    text-align: center;
+    font-size: 29px;
+    font-style: italic;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+#footer{
+    background-color:rgba(83, 98, 180, 0.5);
+    color: rgb(228, 11, 11);
+    padding: 12px;
+    font-size: 25px;
+    font-weight: 600;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style:oblique;
+}
+
+main{
+    margin: 25px;
+    display:block;
+}
+
+/* Giving the name, email & message style in label or input */
+label{
+        float: left;
+        display: block;
+        text-align:left;
+}
+
+input[type = "text"],
+input[type = "email"],
+input[type = "message"],
+textarea,
+select{
+    width: 31%;
+    padding: 5px;
+    margin: 5px;
+    border:2px solid rgb(233, 11, 185);
+    border-radius: 15px;
+}
+
+/* Paragraph design */
+p{
+    font-size: 29px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+/* Reset, Submit buttons design */
+button[type = "submit"],
+button[type = "reset"]
+{padding :5px 10px;
+background-color:darkgrey; 
+color: rgb(255, 0, 0); 
+border: 2px solid rgb(233, 11, 185);
+font-size: 12px;
+float: left;
+border-radius: 10px;
+}
+
+/* Cell & Whatsapp no. design in table */
+table,td,td{
+    text-decoration: underline;
+    color: rgb(23, 9, 226);
+    width: 25%;
+}
+
+/* Go to home link tag */
+#box,span{
+    color: blue;
+    text-align: right;
+    font-style: italic;
+    font-weight: 900;
+    text-decoration: underline;
+    background-color: rgba(0, 255, 255, 0.418);
+}
+
